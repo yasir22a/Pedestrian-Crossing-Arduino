@@ -10,6 +10,8 @@ int PED_GREEN = 8;   // pedestrian go
 int BUZZER = 7;      // buzzer for sound
 int IR_SENSOR = 2;   // IR sensor for automatic detection
 
+// A push button is added in parallel with the IR sensor for manual triggering or backup control.
+
 int count = 0;       // variable to count pedestrians
 
 void setup() {
